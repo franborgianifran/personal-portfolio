@@ -13,12 +13,13 @@
     font-size: 30px;
     opacity: 0;
     pointer-events: none;
-    transition: all ease .3s;
+    transition: all ease .5s;
+    bottom: -30%;
 }
 .scroll-up-btn.show{
     opacity: 1;
     pointer-events: auto;
-    bottom: 30%;
+    bottom: 10%;
 }
 *{
     margin: 0;
@@ -38,7 +39,7 @@
     width: 100%;
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
-    transition: all .3s ease;
+    transition: all .5s ease;
     z-index: 999;
 }
 .navbar.sticky{
@@ -65,11 +66,11 @@
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
-    transition: color linear .3s;   
+    transition: color linear .5s;   
 }
 .navbar .logo a span{
     color: var(--primary-color);
-    transition: ease .3s all;
+    transition: ease .5s all;
 }
 .navbar.sticky .logo a span{
     color: white;
@@ -123,7 +124,7 @@
     display: inline-block;
     background-color: var(--primary-color);
     color: #fff;
-    transition: ease all .3s;
+    transition: ease all .5s;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
@@ -219,7 +220,7 @@ section .title::after{
     margin-top: 20px;
     border-radius: 6px;
     border: 2px solid var(--primary-color);
-    transition: all .3s ease;
+    transition: all .5s ease;
 }
 .about .about-content .right a:hover{
     background: none;
@@ -257,7 +258,7 @@ section .title::after{
     padding: 20px 25px;
     cursor: pointer;
     margin-bottom: 18px;
-    transition: ease all .3s;
+    transition: ease all .5s;
 }
 .services .services-content .card i{
     color: #887171;
@@ -468,7 +469,7 @@ section .title::after{
     cursor: pointer;
     font-weight: 500;
     font-size: 20px;
-    transition: ease all .3s;
+    transition: ease all .5s;
     margin-top: 10px;
 }
 .contact .right form .button button:hover{
@@ -530,7 +531,7 @@ footer div{
         bottom: 0;
         background-color: #111;
         text-align: center;
-        transition: ease .3s all;
+        transition: ease .5s all;
     }
     .navbar .menu.active{
         left: 0;
