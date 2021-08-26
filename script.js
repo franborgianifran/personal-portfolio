@@ -35,4 +35,12 @@ var typed = new Typed(".typing", {
     typeSpeed:100,
     backSpeed: 60,
     loop:true
-})
+});
+var typed2 = new Typed(".typing2", {
+    strings: [
+       "Freelancer", "Web Developer", "Engeenier", "Student" 
+    ],
+    typeSpeed:100,
+    backSpeed: 60,
+    loop:true
+});
