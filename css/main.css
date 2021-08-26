@@ -360,6 +360,17 @@ section .title::after{
         font-size: 20px;
     }
 }
+@media(max-width: 550px){
+    .services-content{
+        flex-direction: column;
+    }
+    .services .services-content .card{
+        width: calc(90% - 20px);
+    }
+    .services-content{
+        margin-bottom: 40px;
+    }
+}
 @media(max-width: 500px){
     .home .home-content .text-2{
         font-size: 50px;
