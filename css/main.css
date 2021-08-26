@@ -8,6 +8,7 @@
     padding: 0;
     box-sizing: 0;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 .max-width{
     max-width: 1300px;
@@ -123,7 +124,7 @@
 .about{
     font-family: 'Poppins', sans-serif;
 }
-.about .title{
+section .title{
     position: relative;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
@@ -132,7 +133,7 @@
     margin-bottom: 60px;
     padding-bottom: 20px;
 }
-.about .title::before{
+section .title::before{
     content: "";
     position: absolute;
     width: 180px;
@@ -142,8 +143,7 @@
     background: #111;
     transform: translateX(-50%);
 }
-.about .title::after{
-    content: "who i am";
+section .title::after{
     position: absolute;
     bottom: -10px;
     left: 50%;
@@ -152,6 +152,16 @@
     background: #fff;
     color: var(--primary-color);
     transform: translateX(-50%);
+}
+.about .title:after{
+    content: "who i am";
+}
+.services .title::after{
+    content: "what i provide";
+    background: #111;
+}
+.services .title::before{
+    background: #fff;
 }
 .about .about-content .left img{
     height: 400px;
@@ -197,12 +207,58 @@
     background: none;
     color: var(--primary-color);
 }
+.about .about-content .right a{
+    margin-bottom: 40px;
+}
 
 
 
 
 
+/* SERVICES SECTION START */
 
+.services{
+    font-family: 'Poppins', sans-serif;
+    background: #111;
+    color: #fff;
+}
+.services .services-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.services .services-content  .card{
+    width: calc(43% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    margin-bottom: 18px;
+    transition: ease all .3s;
+}
+.services .services-content .card i{
+    color: #887171;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.services .services-content .card .text{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.services .services-content .card p{
+    font-size: 14px;
+    text-align: justify;
+    color: #bbbbbb;
+}
+.services .services-content .card:hover{
+    background: var(--primary-color);
+}
+.services .services-content .card:hover p, .services .services-content .card:hover i{
+    color: #cccccc;
+}
 
 
 
