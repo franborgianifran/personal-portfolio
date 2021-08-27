@@ -44,3 +44,9 @@ var typed2 = new Typed(".typing2", {
     backSpeed: 60,
     loop:true
 });
+
+
+const loaderElement = document.getElementById('loader');
+window.addEventListener('load', ()=>{
+    loaderElement.classList.toggle('loader2');
+})
