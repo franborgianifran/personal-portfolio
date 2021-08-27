@@ -141,6 +141,7 @@
 
 .about{
     font-family: 'Poppins', sans-serif;
+    
 }
 section .title{
     position: relative;
@@ -238,7 +239,11 @@ section .title::after{
 
 .services{
     font-family: 'Poppins', sans-serif;
-    background: #111;
+    background-color: #000000;
+    opacity: 1;
+    background-image:  radial-gradient(#434343 0.75px, transparent 0.75px), radial-gradient(#434343 0.75px, #000000 0.75px);
+    background-size: 30px 30px;
+    background-position: 0 0,15px 15px;
     color: #fff;
     min-height: 100vh;
     display: flex;
@@ -364,10 +369,14 @@ section .title::after{
 
 
 .contact{
-    background: #111;
     min-height: calc(100vh - 70px);
     font-family: 'Poppins', sans-serif;
-    color: #cecece;
+    color: #ffffff;
+    background-color: #000000;
+    opacity: 1;
+    background-image:  radial-gradient(#434343 0.75px, transparent 0.75px), radial-gradient(#434343 0.75px, #000000 0.75px);
+    background-size: 30px 30px;
+    background-position: 0 0,15px 15px;
 }
 .contact .contact-content{
     display: flex;
@@ -412,13 +421,13 @@ section .title::after{
 }
 .contact .contact-content .row .info{
     margin-left: 30px;
-    color: #cecece;
+    color: #ffffff;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: #949494;
+    color: #cecece;
 }
 .contact .right form .fields{
     display: flex;

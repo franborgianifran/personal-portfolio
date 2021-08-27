@@ -30,7 +30,7 @@ window.addEventListener('scroll', ()=>{
 
 var typed = new Typed(".typing", {
     strings: [
-       "Freelancer", "Web Developer", "Engeenier", "Student" 
+       "Freelancer", "Developer", "Engeenier", "Student" 
     ],
     typeSpeed:100,
     backSpeed: 60,
