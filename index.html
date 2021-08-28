@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta name="keywords" content="Franco Borgiani, developer, website, designer">
     <meta charset="UTF-8">
-    <meta name="author" content="francoborgiani."> 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Franco Borgiani</title>
+    <meta name="googlebot" content="index">
+    <meta name="author" content="francoborgiani.">
+    <meta name="keywords" content="Franco Borgiani, developer, website, designer, franco, borgiani, web developer, student, storytelling, HTML, CSS, Javascript">
     <meta name="description" content="Soy Franco Borgiani, Web Developer, me especializo en el Front end, puedes encontrarme en Instagram como Franco Borgiani
     y puedes ponerte en contacto a través de mi formulario de envío que lleva a Franco Borgiani (franborgiani2003@gmail.com)">
-    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franco Borgiani Desarrollador web</title>
+   
+
     <link rel="stylesheet" href="./css/main.css">
-    <script src="scrtipts/jquery.slim.js" crossorigin="anonymous"></script>
-    <script src="scrtipts/font-awesome.js"></script>
+    <script src="./jquery.slim.js" crossorigin="anonymous"></script>
+    <script src="./font-awesome.js"></script>
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-    <link rel="shortcut icon" href="./assets/favicon.ico">
+    <link rel="shortcut icon" href="./favicon.ico">
 </head>
 <body id="start">
     
@@ -27,7 +29,7 @@
     <!-- NAVIGATION BAR -->
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="">Fran<span>Borgiani</span></a></div>
+            <div class="logo"><h1><a href="">Fran <span>Borgiani</span></a></h1></div>
             <ul class="menu">
                 <li><a href="#start">Inicio</a></li>
                 <li><a href="#about">Sobre mí</a></li>
@@ -49,9 +51,9 @@
         <div class="max-width">
             <div class="home-content">
                 <div class="text-1">Hola mi nombre es</div>
-                <div class="text-2">Franco Borgiani</div>
+                <h2 class="text-2">Franco Borgiani</h2>
                 <div class="text-3">Y yo soy <span class="typing"></span></div>
-                <a href="#">Contactame</a>
+                <a href="#react">Contactame</a>
             </div>
         </div>
     </section>
@@ -63,14 +65,14 @@
             <h2 class="title">Sobre mí</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="./assets/person.jpg" alt="Franco Borgiani Web Developer franborgiani">
+                    <img src="https://franborgiani.com/assets/person.jpg" alt="Franco Borgiani Web Developer franborgiani">
                 </div>
                 <div class="column right">
-                    <div class="text">Yo soy Franco Borgiani y soy <span class="typing2"></span></div>
+                    <div class="text">Yo soy <h2>Franco Borgiani</h2> y soy <span class="typing2"></span></div>
                     <p>
                         Estudio Tecnologías de la Información, diseño, maqueto, y trabajo en el funcionamiento de sitios web, mediante el uso de diferentes tecnologías, como lo son... HTML, CSS, JS, React, SASS, entre otras herramientas front end.
                     </p>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">Download CV</a>
+                    <a href="https://instagram.com/borgi.fran" target="_blank" rel="noopener noreferrer">Download CV</a>
                 </div>
             </div>
         </div>
@@ -184,7 +186,7 @@
             <h2 class="title">Contacto</h2>
             <div class="contact-content">
                 <div class="column left">
-                    <div class="text">Ponte en contacto conmig</div>
+                    <div class="text">Ponte en contacto conmigo</div>
                     <p>Cuentame sobre tu idea, proyecto, o sobre tus necesidades, ni bien me llegue tu formulario, me pondré a analizar tu situación, y buscar la mejor solución posible para esta...</p>
                     <div class="icons">
                         <div class="row">
@@ -212,7 +214,7 @@
                 </div>
                 <div class="column right">
                     <div class="text">Escríbeme</div>
-                    <form action="send.php" method="post"> 
+                    <form action="https://www.franborgiani.com/send.php" method="post"> 
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" name="name" placeholder="Nombre" required>
@@ -222,13 +224,13 @@
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" name="subject" placeholder="Motiv0" required>
+                            <input type="text" name="subject" placeholder="Motivo" required>
                         </div>
                         <div class="field textarea">
                             <textarea name="description" placeholder="Describe el proyecto..." required></textarea>
                         </div>
                         <div class="button">
-                            <button type="submit">Enviar mensaje</button>
+                            <input type="submit" name="Enviar mensaje">
                         </div>
                     </form>
                 </div>
@@ -241,6 +243,6 @@
     <footer>
         <div>Franco Borgiani Copy Right @ 2021</div>
     </footer>
-    <script src="./scrtipts/script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
