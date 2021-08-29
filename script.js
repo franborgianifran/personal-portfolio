@@ -1,18 +1,16 @@
+window.addEventListener('scroll', ()=>{
+    if(window.scrollY > 100){
+        document.querySelector('.navbar').classList.add('sticky');
+    }else{
+        document.querySelector('.navbar').classList.remove('sticky')
+    }
+})
 
-$(document).ready(function(){
-    $(window).scroll(function(){
-        if(this.scrollY > 20){
-            $('.navbar').addClass("sticky");
-        }else{
-            $('.navbar').removeClass("sticky");
-        }
-    });
     // toggle menu/navbar script
-    $('.menu-btn').click(function(){
-        $('.navbar .menu').toggleClass('active');
-        $('.menu-btn i').toggleClass('active');
-    })
-});
+document.querySelector('.menu-btn').addEventListener('click',()=>{
+    document.querySelector('.navbar .menu').classList.toggle('active');
+    document.querySelector('.menu-btn i').classList.toggle('active');
+})
 document.querySelector('.menu').addEventListener('click', ()=>{
     document.querySelector('.menu').classList.remove('active')
     document.querySelector('.menu-btn i').classList.remove('active');
